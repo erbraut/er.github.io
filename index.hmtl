@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Money Tarzı Site</title>
+    
+    <style>
+		<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Money Tarzı Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hoş Geldiniz</h1>
+        <nav>
+            <ul>
+                <li><a href="#hakkinda">Hakkında</a></li>
+                <li><a href="#hizmetler">Hizmetler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hakkinda">
+            <h2>Hakkında</h2>
+            <p>Bu, klasik ve zarif bir tasarıma sahip bir web sitesidir. Old money tarzını yansıtır.</p>
+        </section>
+
+        <section id="hizmetler">
+            <h2>Hizmetler</h2>
+            <ul>
+                <li>Özel Danışmanlık</li>
+                <li>Finansal Planlama</li>
+                <li>Yatırım Danışmanlığı</li>
+            </ul>
+        </section>
+
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            <form id="contactForm">
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Old Money Tarzı. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hoş Geldiniz</h1>
+        <nav>
+            <ul>
+                <li><a href="#hakkinda">Hakkında</a></li>
+                <li><a href="#hizmetler">Hizmetler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hakkinda">
+            <h2>Hakkında</h2>
+            <p>Bu, klasik ve zarif bir tasarıma sahip bir web sitesidir. Old money tarzını yansıtır.</p>
+        </section>
+
+        <section id="hizmetler">
+            <h2>Hizmetler</h2>
+            <ul>
+                <li>Özel Danışmanlık</li>
+                <li>Finansal Planlama</li>
+                <li>Yatırım Danışmanlığı</li>
+            </ul>
+        </section>
+
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            <form id="contactForm">
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Old Money Tarzı. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script>
+		document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Mesajınız gönderildi!');
+    this.reset();
+});
+
+    </script>
+</body>
+</html>
